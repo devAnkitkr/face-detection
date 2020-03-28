@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  min-height: 100vh;
+  background: #030e39;
+  background: linear-gradient(356deg, #030e39 0%, #b62e75 100%, #fcb045 100%);
+  background-repeat: no-repeat;
+}
+
+.app .particles {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+}
+
+.app .logo {
+  max-width: 100px;
+  height: auto;
+  padding: 0;
+  margin: 0;
+}
+
+.app .logo img {
+  max-width: 150px;
+}
+
+.app .imagelinkform {
+  max-width: 500px;
+  margin: 2% auto;
+  background: rgba(0, 0, 0, 0.281);
+  padding: 10px;
+}
+
+.app .facerecognition {
+  width: 500px;
+  position: relative;
+}
+/*# sourceMappingURL=index.css.map */
